@@ -26,7 +26,7 @@ class NewsArticle: Codable {
     let date: String
     let content: String
     let tags: [Tags]
-    let image_url: String?
+    let image_url: String
     
     init(title: String, website: String, authors: String, date: String, content: String, tags: [Tags], image_url: String){
         self.title = title
