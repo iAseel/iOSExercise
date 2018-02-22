@@ -10,8 +10,8 @@
 import UIKit
 
 class NewsArticles: Codable {
-    let title: String?
-    let articles: [NewsArticle]?
+    let title: String
+    let articles: [NewsArticle]
     
     init(title: String, articles: [NewsArticle]){
         self.title = title
@@ -20,12 +20,12 @@ class NewsArticles: Codable {
 }
 
 class NewsArticle: Codable {
-    let title: String?
-    let website: String?
-    let authors: String?
-    let date: String?
-    let content: String?
-    let tags: [Tags]?
+    let title: String
+    let website: String
+    let authors: String
+    let date: String
+    let content: String
+    let tags: [Tags]
     let image_url: String?
     
     init(title: String, website: String, authors: String, date: String, content: String, tags: [Tags], image_url: String){
@@ -40,8 +40,8 @@ class NewsArticle: Codable {
 }
 
 class Tags: Codable {
-    let id: Int?
-    let label: String?
+    let id: Int
+    let label: String
     
     init(id: Int, label: String) {
         self.id = id
