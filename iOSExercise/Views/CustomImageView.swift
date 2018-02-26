@@ -18,7 +18,6 @@ class CustomImageView: UIImageView{
         
         // Checking if the requested image has been already cached, and if it was, it will be passed and then exit the function
         if let imageFromCache = imageCache.object(forKey: imageURL as AnyObject) as? UIImage {
-            print("image from cache")
             self.image = imageFromCache
             return
         }
@@ -36,7 +35,6 @@ class CustomImageView: UIImageView{
             DispatchQueue.main.async{
                 let imageToCache = UIImage(data: data!)
                 if self.imageUrlString == imageURL {
-                    print("image downloaded")
                     self.image = imageToCache
                 }
                 imageCache.setObject(imageToCache!, forKey: imageURL as AnyObject)
