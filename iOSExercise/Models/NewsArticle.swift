@@ -1,25 +1,14 @@
-//
-//  NewsArticle.swift
-//  iOSExercise
-//
 //  Created by Aseel Bahaziq on 2/22/18.
 //  Copyright © 2018 Aseel Bahaziq. All rights reserved.
 //
-//  This file contains the structure of our JSON file and it implements the Codable protocol
+//  This file contains the structure of our "NewsArticle" and it implements the Codable protocol
+//  Each NewsArticle object has a "title", a "website", "authors", a "date", a content, an "image_url", and an Array of "Tags" (which contains only one object, as defined by the JSON file downloaded)
+//  The "Tags" object has two attributes: an "id" and a "label"
 
-import UIKit
-
-class NewsArticles: Codable {
-    let title: String
-    let articles: [NewsArticle]
-    
-    init(title: String, articles: [NewsArticle]){
-        self.title = title
-        self.articles = articles
-    }
-}
+import Foundation
 
 class NewsArticle: Codable {
+    
     let title: String
     let website: String
     let authors: String

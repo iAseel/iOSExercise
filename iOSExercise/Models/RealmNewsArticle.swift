@@ -1,7 +1,3 @@
-//
-//  NewsArticleRealmObject.swift
-//  iOSExercise
-//
 //  Created by Aseel Bahaziq on 2/22/18.
 //  Copyright © 2018 Aseel Bahaziq. All rights reserved.
 //
@@ -11,6 +7,7 @@ import Foundation
 import RealmSwift
 
 class RealmNewsArticle: Object{
+    
     @objc dynamic var title: String?
     @objc dynamic var website: String?
     @objc dynamic var authors: String?
@@ -19,5 +16,5 @@ class RealmNewsArticle: Object{
     @objc dynamic var label: String?
     @objc dynamic var image_url: String?
     
-    let id = RealmOptional<Int>()
+    var id = RealmOptional<Int>()
 }
