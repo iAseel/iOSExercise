@@ -16,8 +16,6 @@
 		A060A61420440A4200BD756C /* NewsArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060A61320440A4200BD756C /* NewsArticleCell.swift */; };
 		A060A61620444B7E00BD756C /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060A61520444B7E00BD756C /* CustomImageView.swift */; };
 		A0AC9C8C2042B65E00458A29 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC9C8A2042B65E00458A29 /* RealmSwift.framework */; };
-		A0AC9C8D2042B65E00458A29 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC9C8B2042B65E00458A29 /* Realm.framework */; };
-		A0AC9C8E2042B67600458A29 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC9C8A2042B65E00458A29 /* RealmSwift.framework */; };
 		A0AC9C8F2042B67600458A29 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC9C8A2042B65E00458A29 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A0AC9C902042B67600458A29 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC9C8B2042B65E00458A29 /* Realm.framework */; };
 		A0AC9C912042B67600458A29 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC9C8B2042B65E00458A29 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -71,9 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0AC9C902042B67600458A29 /* Realm.framework in Frameworks */,
-				A0AC9C8D2042B65E00458A29 /* Realm.framework in Frameworks */,
 				A0AC9C8C2042B65E00458A29 /* RealmSwift.framework in Frameworks */,
-				A0AC9C8E2042B67600458A29 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
